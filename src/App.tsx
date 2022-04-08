@@ -5,8 +5,6 @@ import Ethers from "ethers";
 import { DataGrid } from '@mui/x-data-grid';
 import { Button } from '@mui/material';
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
-import { proxyAbi, proxyAddress, proxyDeploymentBlock } from './contract';
-import { promises } from 'stream';
 
 // The Graph
 interface Voter {
