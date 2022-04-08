@@ -81,7 +81,7 @@ export default function BasicExampleDataGrid() {
       // Sketchy but works
       rows.sort((a,b) => Number(b.votingPower) - Number(a.votingPower))
       rows = rows.map((x: RowData) => {
-        const gsc = Number(x.votingPower) > 100000 ? "Yes" : null;
+        const gsc = Number(x.votingPower) > 110000 ? "Yes" : null;
         return {
           ...x,
           votingPower: ethers.utils.commify(x.votingPower),
