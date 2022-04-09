@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {ethers} from "ethers";
 import Ethers from "ethers";
-import { DataGrid } from '@mui/x-data-grid';
+import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import { Button } from '@mui/material';
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
 
@@ -102,6 +102,7 @@ export default function BasicExampleDataGrid() {
           {!provider ? "Connect to Metamask" : "Refresh"}
         </Button>
         <DataGrid
+          components={{Toolbar: GridToolbar}}
           columns={columns}
           rows={rowData}
         />
