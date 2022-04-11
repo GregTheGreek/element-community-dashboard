@@ -107,7 +107,7 @@ export default function BasicExampleDataGrid() {
           rows={rowData}
         />
         <p>Made by <a target="_" href="https://github.com/GregTheGreek">GregTheGreek</a></p>
-        <p>Accepting delegations: <a target="_" href="https://etherscan.io/address/0x7AE8b0D6353F0931EB9FaC0A3562fA9e4C6Ff933">0x7AE8b0D6353F0931EB9FaC0A3562fA9e4C6Ff933</a></p>
+        <p>Delegate to me: <a target="_" href="https://etherscan.io/address/0x7AE8b0D6353F0931EB9FaC0A3562fA9e4C6Ff933">0x7AE8b0D6353F0931EB9FaC0A3562fA9e4C6Ff933</a></p>
       </div>
     </div>
   );
